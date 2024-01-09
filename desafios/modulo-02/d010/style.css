@@ -1,0 +1,140 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: 'Android';
+    src: url(/d010/fontes/idroid.otf);}
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    
+}
+header {
+    height: 150px;
+    margin: 0px;
+    background-image: linear-gradient(to top, #1a5a37,#5cbe7d);
+    padding: 10px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+header > h1 {
+    text-align: center;
+    color: white;
+    font-size: 2em;
+    font-family: 'Bebas neue', cursive;
+    
+}
+
+header > p {
+    text-align: center;
+    color: white;
+}
+
+nav {
+    text-align: left;
+    padding: 10px;
+    margin: 0px;
+    font-size: 1.05em;
+    font-weight: bold;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    padding-top: 45px;
+    text-indent: -15px;
+    
+}
+.navbar > a {
+    padding: 7px;
+    color: white;    
+    text-decoration: none;
+}
+.navbar > a:hover {
+    background-color: #5CBE7D;
+    border-radius: 6px;
+    
+}
+
+.link-externo {
+    text-decoration: none;
+    color: black;
+    background-color: green;
+    
+}
+.link-externo::after {
+    content: '🔗'
+}
+
+.secao01 > h1 {
+    font-family: 'Android';
+    font-size: 32px;
+    margin: auto;
+    text-align: center;
+    padding: 20px 0px 10px 0px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+.secao01 > h2 {
+    background-image: linear-gradient(to right, #89CDA5, #FFFFFF);
+    margin: 10px;
+    padding: 2px;
+    border-radius: 6px;
+    font-family: 'Android';
+    border: 20px transparent;
+    text-indent: 5px;
+    font-size: 25px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+}
+
+.secao02 {
+    display: block;
+    margin: 20px;
+    background-color:#C5EBD6;
+    border-radius: 6px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    
+}
+
+.secao02 > ul {
+    list-style-type: '\2714\0020\0020';
+    list-style-position: inside;
+    columns: 2;
+    text-indent: 20%;
+    text-shadow: 0px;
+}
+
+.secao02 > h3 {
+    color: white;
+    padding: 15px;
+    background-color: #2FA866;
+    border-radius: 6px 6px 0px 0px;
+    text-shadow: 0px;
+}
+
+main {
+    max-width: 1000px;
+    min-width: 300px;
+    display: block;
+    margin: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+p {
+    padding: 20px 15px 10px 15px;
+}
+
+footer > p {
+    background-color: #1A5A37;
+    height: 10px;
+    margin: 1px;
+    padding-top: 5px;
+    font-size: 15px;
+    color: white;
+    text-align: center;
+    
+}
+
+body {
+    background-color: #89CDA5;
+}

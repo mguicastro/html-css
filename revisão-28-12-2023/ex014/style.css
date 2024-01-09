@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+body {
+    background-color: bisque;
+    font-family: arial;
+}
+
+h1 {
+    background-color: maroon;
+    color: antiquewhite;
+}
+
+h2 {
+    color: teal;
+}
